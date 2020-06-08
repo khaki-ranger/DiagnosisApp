@@ -1,0 +1,111 @@
+/* You can add global styles to this file, and also import other style files */
+/* reset */
+body {
+  margin: 0;
+}
+img {
+  vertical-align:bottom;
+}
+p {
+  margin: 0;
+}
+ul,dl,dd {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+table {
+  border-spacing: 0;
+  width: 100%;
+}
+/* common */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #333;
+}
+.full-container {
+  padding: 0 1rem;
+}
+img.scale-to-fit {
+  width: 100%;
+  height: auto;
+}
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.fl-left {
+  float: left;
+}
+.fl-right {
+  float: right;
+}
+/* responsive */
+@media (max-width: 576px) {
+.flex-container {
+  padding: 0 1rem;
+}
+}
+@media (min-width: 576px) {
+.flex-container {
+  margin: 0 auto;
+}
+a.linktext {
+  text-decoration: underline;
+}
+a.linktext:hover {
+  text-decoration: none;
+}
+}
+@media (min-width: 576px) and (max-width: 768px) {
+.flex-container {
+  width: 560px;
+}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+.flex-container {
+  width: 760px;
+}
+}
+@media (min-width: 992px) {
+.flex-container {
+  width: 980px;
+}
+}
+
+h1,
+.read {
+  text-align: center;
+}
+.read {
+  margin-bottom: 2rem;
+}
+input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #ddd;
+  border: none;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+button {
+  width: 100%;
+  border: none;
+  color: white;
+  background-color: #666;
+  padding: 1rem;
+}
+#result-area {
+  margin-top: 2rem;
+}
+#result-area h3 {
+  text-align: center;
+}
